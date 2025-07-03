@@ -1,11 +1,3 @@
-import { Button } from "@/components/ui/button";
-
 export default function Home() {
-  return (
-    <div>
-      <Button variant={"normal"} size={"lg"}>
-        Get Started
-      </Button>
-    </div>
-  );
+  return <div>home</div>;
 }
