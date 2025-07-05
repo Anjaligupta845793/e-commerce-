@@ -62,12 +62,12 @@ const Navbar = () => {
   const pathname = usePathname();
   return (
     <div className="border-b border-gray-400 shadow-xl h-20">
-      <div className="flex items-stretch justify-between max-w-[1200px] h-full mx-auto px-2">
+      <div className="flex items-stretch justify-between  h-full mx-auto ">
         {/* Logo */}
         <Link
           href="/"
           className={cn(
-            "text-2xl font-extrabold flex items-center",
+            "text-2xl font-extrabold flex items-center ml-3",
             poppins.className
           )}
         >
@@ -88,11 +88,11 @@ const Navbar = () => {
 
         {/* Login & Signup Buttons */}
         <div className="hidden items-stretch md:flex">
-          <Button className="h-full bg-transparent border border-black text-black rounded-none hover:bg-pink-500">
+          <Button className="h-full bg-transparent border px-10 border-black text-black rounded-none hover:bg-pink-500">
             Login
           </Button>
-          <Button className="h-full bg-black text-white rounded-none hover:bg-white hover:text-black hover:border-1 border-black">
-            Signup
+          <Button className="h-full bg-black px-16 text-white rounded-none hover:bg-white hover:text-black hover:border-1 border-black">
+            start selling
           </Button>
         </div>
         <div className="md:hidden flex items-center">
