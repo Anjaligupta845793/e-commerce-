@@ -96,7 +96,7 @@ const Navbar = () => {
           </Button>
         </div>
         <div className="md:hidden flex items-center">
-          <NavSidebar />
+          <NavSidebar item={navbarLinks} />
         </div>
       </div>
     </div>
